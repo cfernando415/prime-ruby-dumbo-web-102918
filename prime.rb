@@ -11,5 +11,6 @@ def prime?(num)
     false
   end
   
-  
+  i = 5
+  while (i * i <= num )
 end
