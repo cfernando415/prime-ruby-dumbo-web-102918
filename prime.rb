@@ -15,7 +15,7 @@ def prime?(num)
   i = 5
   while (i * i <= num)
     if (num % i == 0 || num % (i + 2) == 0)
-      false
+      return false
     end
     i += 6
   end
